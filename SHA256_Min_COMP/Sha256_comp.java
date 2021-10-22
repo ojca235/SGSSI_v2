@@ -114,7 +114,7 @@ public class Sha256_comp {
 	
 	
 	private static String contarCeros(String hash) {
-		if(hash.length()<17)
+		if(hash.length()<19)
 		{
 			for(int i = 0; i < hash.length(); i++) {
 				if(i<8) {
